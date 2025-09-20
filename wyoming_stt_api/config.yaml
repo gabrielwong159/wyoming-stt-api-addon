@@ -11,5 +11,7 @@ ports:
   10300/tcp: 10300
 options:
   openai_api_key: null
+  max_audio_duration_s: 10
 schema:
   openai_api_key: str
+  max_audio_duration_s: int
