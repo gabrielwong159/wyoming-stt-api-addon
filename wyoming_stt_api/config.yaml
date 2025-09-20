@@ -1,8 +1,8 @@
 version: "0.1.0"
 slug: "stt"
 name: "Speech-to-text API"
-description: ""
-url: "https://github.com/gabrielwong159/wyoming-stt-api"
+description: "Speech-to-text via an external API"
+url: "https://github.com/gabrielwong159/wyoming-stt-api-addon/tree/main/wyoming_stt_api"
 arch:
   - aarch64
   - amd64
