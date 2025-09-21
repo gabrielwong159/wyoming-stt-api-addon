@@ -3,7 +3,7 @@ FROM ${BUILD_FROM}
 
 RUN apk add --no-cache git
 
-RUN pip install git+https://github.com/gabrielwong159/wyoming-stt-api.git
+RUN pip install git+https://github.com/gabrielwong159/wyoming-stt-api.git@v1.0.0
 
 COPY run.sh /
 RUN chmod a+x /run.sh
